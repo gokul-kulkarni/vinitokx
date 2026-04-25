@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I {} sh -c 'echo \"=== {} ===\" && wc -l {}')",
+      "Bash(xargs ls *)",
+      "Bash(bun install *)",
+      "Bash(turbo build *)",
+      "Bash(turbo check-types *)",
+      "Bash(turbo lint *)",
+      "Bash(bun pm *)"
+    ]
+  }
+}
