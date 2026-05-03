@@ -1,0 +1,22 @@
+{
+  "$schema": "https://turborepo.dev/schema.json",
+  "extends": ["//"],
+  "tasks": {
+    "build": {
+      "inputs": ["src/**", "Cargo.toml", "Cargo.lock"],
+      "outputs": ["target/release/vtkxoptm"]
+    },
+    "test": {
+      "inputs": ["src/**", "tests/**", "Cargo.toml", "Cargo.lock"],
+      "outputs": []
+    },
+    "lint": {
+      "inputs": ["src/**", "Cargo.toml"],
+      "outputs": []
+    },
+    "check-types": {
+      "inputs": ["src/**", "Cargo.toml"],
+      "outputs": []
+    }
+  }
+}

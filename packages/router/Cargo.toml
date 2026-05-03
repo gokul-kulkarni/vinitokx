@@ -1,0 +1,34 @@
+[package]
+name = "vtkxoptm"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.87"
+description = "Local-LLM token-saving router for Claude Code (vinitokx)"
+license = "MIT"
+repository = "https://github.com/gokul-kulkarni/vinitokx"
+homepage = "https://github.com/gokul-kulkarni/vinitokx/tree/main/packages/router"
+documentation = "https://github.com/gokul-kulkarni/vinitokx/tree/main/packages/router#readme"
+keywords = ["ollama", "llm", "token", "claude", "local"]
+categories = ["command-line-utilities", "development-tools"]
+
+[[bin]]
+name = "vtkxoptm"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+dirs = "5.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+ureq = { version = "2.10", features = ["json"] }
+
+[dev-dependencies]
+tempfile = "3.10"
+tiny_http = "0.12"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+strip = true

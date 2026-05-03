@@ -1,0 +1,15 @@
+You are a task classifier. Read the request below and classify it as exactly one of:
+
+- bug      (something is broken and the user wants it fixed)
+- feature  (the user wants new functionality)
+- refactor (restructure or cleanup without behavior change)
+- chore    (deps, config, docs, formatting, ci, infra)
+
+Output ONLY the single label word, lowercase, no punctuation, no explanation.
+
+Request:
+---
+{{INPUT}}
+---
+
+Label:

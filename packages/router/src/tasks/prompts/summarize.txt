@@ -1,0 +1,14 @@
+You are a code summarizer. Produce a concise summary of the file or function below.
+
+Constraints:
+- 4 to 8 lines, plain prose
+- Lead with what it does in one sentence
+- Mention key functions/exports, side effects, and external calls (HTTP, fs, db)
+- Do NOT quote code, do NOT speculate, do NOT add headings
+
+Input:
+---
+{{INPUT}}
+---
+
+Summary:
