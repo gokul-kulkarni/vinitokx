@@ -1,0 +1,12 @@
+{
+  "name": "vinitokx",
+  "description": "Token analysis and optimization plugin for Claude Code. Provides skills for analyzing context window usage, compressing token-heavy content, and displaying quick token dashboards.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Gokul Kulkarni",
+    "email": "gokul.cs5@gmail.com"
+  },
+  "homepage": "https://github.com/gokul-kulkarni/vinitokx",
+  "repository": "https://github.com/gokul-kulkarni/vinitokx",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vinitokx-local",
+  "description": "Local ViniTokx plugin marketplace for development",
+  "owner": {
+    "name": "Gokul Kulkarni",
+    "email": "gokul.cs5@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "vinitokx",
+      "source": "./apps/claude",
+      "description": "Token analysis and optimization plugin for Claude Code.",
+      "version": "0.1.0"
+    }
+  ]
+}
