@@ -50,6 +50,20 @@
         "typescript-eslint": "^8.50.0",
       },
     },
+    "packages/observer": {
+      "name": "@vinitokx/observer",
+      "version": "0.1.0",
+      "bin": {
+        "vinitokx": "./dist/cli.js",
+      },
+      "devDependencies": {
+        "@types/node": "^22.15.3",
+        "@vinitokx/eslint-config": "*",
+        "@vinitokx/typescript-config": "*",
+        "eslint": "^9.39.1",
+        "typescript": "5.9.2",
+      },
+    },
     "packages/typescript-config": {
       "name": "@vinitokx/typescript-config",
       "version": "0.1.0",
@@ -139,6 +153,8 @@
     "@vinitokx/cursor": ["@vinitokx/cursor@workspace:apps/cursor"],
 
     "@vinitokx/eslint-config": ["@vinitokx/eslint-config@workspace:packages/eslint-config"],
+
+    "@vinitokx/observer": ["@vinitokx/observer@workspace:packages/observer"],
 
     "@vinitokx/typescript-config": ["@vinitokx/typescript-config@workspace:packages/typescript-config"],
 
