@@ -5,6 +5,11 @@ edition = "2021"
 rust-version = "1.87"
 description = "Local-LLM token-saving router for Claude Code (vinitokx)"
 license = "MIT"
+repository = "https://github.com/gokul-kulkarni/vinitokx"
+homepage = "https://github.com/gokul-kulkarni/vinitokx/tree/main/packages/router"
+documentation = "https://github.com/gokul-kulkarni/vinitokx/tree/main/packages/router#readme"
+keywords = ["ollama", "llm", "token", "claude", "local"]
+categories = ["command-line-utilities", "development-tools"]
 
 [[bin]]
 name = "vtkxoptm"
