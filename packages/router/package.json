@@ -1,0 +1,13 @@
+{
+  "name": "@vinitokx/router",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rust binary that routes a focused set of small LLM tasks (summarize, docstring, classify, boilerplate) to a local Ollama model, saving cloud tokens.",
+  "scripts": {
+    "build": "cargo build --release && mkdir -p ../../node_modules/.bin && ln -sf \"$PWD/target/release/vtkxoptm\" ../../node_modules/.bin/vtkxoptm",
+    "test": "cargo test --release",
+    "lint": "cargo clippy --release -- -D warnings",
+    "check-types": "cargo check --release",
+    "clean": "cargo clean"
+  }
+}
